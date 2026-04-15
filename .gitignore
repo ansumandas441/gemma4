@@ -1,0 +1,23 @@
+# Environment and secrets
+.env
+
+# Model weights
+*.safetensors
+*.bin
+*.gguf
+
+# Logs
+*.log
+
+# Python
+*.pyc
+__pycache__/
+*.egg-info/
+
+# Virtual environments
+*-venv/
+venv/
+.venv/
+
+# Claude Code local state
+.claude/
